@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "678401272727",
+    "firebase_url": "https://xcremote-355cf-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "xcremote-355cf",
+    "storage_bucket": "xcremote-355cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678401272727:android:3ff725d984843dfa7eb2d2",
+        "android_client_info": {
+          "package_name": "or.nevet.xcremote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678401272727-ason0kdnqtt4sgklr1u7k4gad27m32b9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "or.nevet.xcremote",
+            "certificate_hash": "433ce776f754a2f6e4bf8cb45f727eba682abd52"
+          }
+        },
+        {
+          "client_id": "678401272727-rm3h6jck7h9f1820g4r86enut85njk07.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "or.nevet.xcremote",
+            "certificate_hash": "c56d600e3c7f9b073a32f6e7d4b23762a2bfe8b0"
+          }
+        },
+        {
+          "client_id": "678401272727-me4bhpmaj6f40ooc4bgcr8n23002nj4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1FDX_Kgp35sm5Yn954ZRAuq9Q09knvJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678401272727-me4bhpmaj6f40ooc4bgcr8n23002nj4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678401272727:android:31e41905c7271c057eb2d2",
+        "android_client_info": {
+          "package_name": "or.nevet.xcremotefileupdater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678401272727-80gou7e9u9vddio0ml481m90un0vi87h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "or.nevet.xcremotefileupdater",
+            "certificate_hash": "16f2670cab6de8365ca44e8e256a91b744feb38a"
+          }
+        },
+        {
+          "client_id": "678401272727-s60rbsihggk8ukavffo06i3cuo2rts60.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "or.nevet.xcremotefileupdater",
+            "certificate_hash": "c56d600e3c7f9b073a32f6e7d4b23762a2bfe8b0"
+          }
+        },
+        {
+          "client_id": "678401272727-me4bhpmaj6f40ooc4bgcr8n23002nj4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1FDX_Kgp35sm5Yn954ZRAuq9Q09knvJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678401272727-me4bhpmaj6f40ooc4bgcr8n23002nj4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

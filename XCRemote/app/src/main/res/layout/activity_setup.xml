@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="27"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    tools:context=".SetupActivity">
+
+    <ImageView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/title"
+        android:scaleType="fitCenter"
+        android:layout_weight="3" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/controller" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/con"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintDimensionRatio="0.7430503381"
+                android:orientation="vertical"
+                android:weightSum="52">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="9" />
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10"
+                    android:layout_weight="5">
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        app:layout_constraintDimensionRatio="1.1273584906"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintHorizontal_bias="0.36"
+                        android:scaleType="fitCenter"
+                        android:background="#00000000"
+                        android:src="@drawable/square" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        app:layout_constraintDimensionRatio="1"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintHorizontal_bias="0.66"
+                        android:background="#00000000"
+                        android:src="@drawable/circle"
+                        android:scaleType="fitCenter" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="10"
+                    android:layout_weight="6">
+                    <ImageButton
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintTop_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintHorizontal_bias="0.51"
+                        app:layout_constraintDimensionRatio="0.9766233766"
+                        android:id="@+id/imageButton5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter"
+                        android:background="#00000000"
+                        android:src="@drawable/stick" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="11"
+                    android:layout_weight="5">
+                    <ImageButton
+                        android:id="@+id/imageButton3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitCenter"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintHorizontal_bias="0.36"
+                        app:layout_constraintDimensionRatio="1.0983606557"
+                        android:background="#00000000"
+                        android:src="@drawable/triangle"
+                        android:layout_weight="2" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        app:layout_constraintDimensionRatio="1"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintHorizontal_bias="0.66"
+                        android:background="#00000000"
+                        android:src="@drawable/x"
+                        android:scaleType="fitCenter" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </RelativeLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/switch_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:background="@drawable/buttor"
+        android:text="@string/click_activate_xcremote"
+        android:textColor="#000000"
+        app:autoSizeTextType="uniform" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="@drawable/buttor"
+        app:autoSizeTextType="uniform"
+        android:text="Return to default" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start_xcsoar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="@drawable/buttor"
+        app:autoSizeTextType="uniform"
+        android:text="start xcsoar" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/autostart_xcremote"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="@drawable/buttor"
+        app:autoSizeTextType="uniform"
+        android:text="autostart xcremote" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="@drawable/buttor"
+        app:autoSizeTextType="uniform"
+        android:text="Deutsch" />
+
+</LinearLayout>

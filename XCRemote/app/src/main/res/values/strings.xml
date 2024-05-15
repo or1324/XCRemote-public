@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">XCRemote</string>
+    <string name="click_activate_xcremote"><![CDATA[click & activate xcremote]]></string>
+    <string name="default_keyboard_string"><![CDATA[click & activate your keyboard for normal ops]]></string>
+</resources>

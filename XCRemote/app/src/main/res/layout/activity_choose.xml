@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ChooseActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/transparent_icon"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#A6FFFFFF"
+        android:weightSum="15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autoSizeTextType="uniform"
+            android:background="@drawable/buttor"
+            android:gravity="center"
+            android:text="Back"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textColor="#000000"
+            app:autoSizeTextType="uniform" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:showDividers="middle"
+            android:dividerPadding="5dp"
+            android:weightSum="14">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="cancel"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="toggle task abort"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="alternates"
+                android:textColor="#000000" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="analysis"
+                android:textColor="#000000" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="flarm radar"
+                android:textColor="#000000" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key6"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:text="checklist"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key7"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="variomenu"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key8"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="quickmenu"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key9"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="enter"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key10"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="panmode"
+                android:textColor="#000000" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key11"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="autozoom on/off"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key12"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="select waypoint"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key13"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="task manager"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key14"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="flight setup"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key15"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="next waypoint"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key16"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="previous waypoint"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key17"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="target"
+                android:textColor="#000000" />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/key18"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:autoSizeTextType="uniform"
+                android:background="@drawable/buttor"
+                android:textStyle="bold"
+                android:text="no function"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+</RelativeLayout>
